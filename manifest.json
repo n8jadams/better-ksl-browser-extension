@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "Better KSL Plugin",
+	"version": "1.0.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"https://*.ksl.com/*",
+		"webRequest",
+		"webRequestBlocking",
+		"tabs"
+	],
+	"web_accessible_resources" : [
+		"hide-elements.css"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.ksl.com/*"
+			],
+			"css" : [
+				"hide-elements.css"
+			],
+			"js": [
+				"execute.js"
+			],
+			"run_at": "document_start",
+			"all_frames": false
+		}
+	]
+}

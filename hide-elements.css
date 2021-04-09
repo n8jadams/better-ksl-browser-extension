@@ -1,0 +1,16 @@
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(1),
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(2),
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(3),
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(4),
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(5),
+.ksl-header--small > div:nth-child(3) > div > div > .ksl-header-mobile-links:nth-child(2) > .ksl-header-news > .ksl-header-nav-group__body > div:nth-child(6),
+.ksl-header-nav-group--news-home,
+.ksl-header-nav-group--news-sports,
+.ksl-header-nav-group--news-brandview,
+.ksl-header-nav-group--news-tv,
+.ksl-header-nav-group--news-radio,
+.ksl-header-nav-group--news-live,
+.headerBanner
+{
+	display: none !important
+}
